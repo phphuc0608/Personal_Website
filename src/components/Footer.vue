@@ -1,6 +1,6 @@
 <template>
   <footer class=" text-light text-center py-2">
-    &copy; 2023 Pham Quang Phuc
+    &copy; 2024 Pham Quang Phuc
   </footer>
 </template>
 

@@ -4,13 +4,6 @@
       <div class="col-md-12 mt-5">
         <h1 class="text_about">Experiences</h1>
       </div>
-      <div class="col-md-6 text_about mb-4">
-      Hello, I'm Pham Quang Phuc, but you can simply call me Mac. I am a programmer.
-      </div>
-      <!-- <div class="col-md-6 text_about" style="font-size: 13px;">
-        I'm currently a student at the University of Information Technology, majoring in Software Engineering.
-        I'm also a self-taught web developer, and I'm always looking for new things to learn. 
-      </div> -->
     </div>
     <div class="container my-5">
       <h2 align="center" class="text_about">My Journey</h2>
@@ -32,7 +25,7 @@ export default {
     return {
       exp_list: [
         {
-          name: "Vietnam Maritime University",
+          name: "Study at Vietnam Maritime University",
           time: "10/2020 - Present",
           content: "Major: Information Technology",
           logo: require("@/assets/about/school_logo.png"),
