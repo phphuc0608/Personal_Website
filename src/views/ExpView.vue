@@ -15,6 +15,16 @@
           <p class="my-2">{{ exp.content }}</p>
         </div>  
     </div>
+    <div class="container my-5">
+      <h2 align="center" class="text_about">My Education</h2>
+      <hr>
+      <div class="col-md-12 my-3 jr_exp text-center p-3">
+          <img src="@/assets/about/school_logo.png">
+          <h3 class="my-2">Study at Vietnam Maritime University</h3>
+          <p class="my-2">Time: 10/2020 - Present</p>
+          <p class="my-2">Major: Information Technology</p>
+        </div>  
+    </div>
   </div>
 </template>
 
@@ -24,12 +34,12 @@ export default {
   data() {
     return {
       exp_list: [
-        {
-          name: "Study at Vietnam Maritime University",
-          time: "10/2020 - Present",
-          content: "Major: Information Technology",
-          logo: require("@/assets/about/school_logo.png"),
-        },
+        // {
+        //   name: "Study at Vietnam Maritime University",
+        //   time: "10/2020 - Present",
+        //   content: "Major: Information Technology",
+        //   logo: require("@/assets/about/school_logo.png"),
+        // },
         {
           name: "Intern at VNNET",
           time: "08/2022 - 11/2022",
