@@ -3,15 +3,15 @@
   <div class="col-md-12 mt-5">
     <h1 class="text_about">Projects</h1>
   </div>
-  <div class="description pt-2">
+  <div class="pt-2">
     <div class="col-md-6 text_about mb-2">
       Of course, I can't call myself a tech guy without some software projects.
     </div>
   </div>
   <hr>
   <div id="project_container" v-for="project in projects">
-    <div class="col-md-12 d-flex justify-content-center">
-      <div class="col-md-5 me-4">
+    <div class="col-md-12 project_box">
+      <div class="col-lg-5 col-md-12 me-lg-4">
         <h3 class="text_about">{{ project.name }}</h3>
         <span class="text_about justified_text">
           {{ project.content }}
@@ -27,7 +27,7 @@
           </span>
         </div>
       </div>
-      <div class="col-md-7">
+      <div class="col-lg-7 col-md-12">
         <img :src="project.img" class="img_pro" alt="">
       </div>
     </div>
@@ -109,5 +109,18 @@ export default {
 .github:hover{
   border: 1px solid white;
   cursor: pointer;
+}
+.project_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .project_box {
+    display: block;
+  }
+  .img_pro {
+   margin-top: 20px;
+  }
 }
 </style>

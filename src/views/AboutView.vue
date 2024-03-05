@@ -5,20 +5,20 @@
         <h1 class="text_about">About</h1>
       </div>
       <hr>
-      <div class="description d-flex justify-content-center pt-2">
-      <div class="col-md-6 text_about mb-2">
-        <h3 class="text_about">Who I Am:</h3>
-        Hello, I'm Pham Quang Phuc, but you can simply call me Mac. 
-        I am a programmer who is always eager to accumulate practical experience and possesses a passion for constantly pushing the boundaries in the field of information technology.
-      </div>
-      <div class="col-md-6 text_about mb-2">
-        <h3 class="text_about">Prizes</h3>
-        <ul>
-          <li>Prospective prize in Data-centric AI Competition 2021 (FPT Software).</li>
-          <li>Consolation prize in University-level undergraduate research 2022 – 2023.</li>
-          <li>Scholarship for the academic year 2022 – 2023</li>
-        </ul>
-      </div>
+      <div class="description pt-2">
+        <div class="col-md-6 des_item text_about mb-2">
+          <h3 class="text_about">Who I Am:</h3>
+          Hello, I'm Pham Quang Phuc, but you can simply call me Mac. 
+          I am a programmer who is always eager to accumulate practical experience and possesses a passion for constantly pushing the boundaries in the field of information technology.
+        </div>
+        <div class="col-md-6 des_item text_about mb-2">
+          <h3 class="text_about">Prizes</h3>
+          <ul>
+            <li>Prospective prize in Data-centric AI Competition 2021 (FPT Software).</li>
+            <li>Consolation prize in University-level undergraduate research 2022 – 2023.</li>
+            <li>Scholarship for the academic year 2022 – 2023</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="container my-5">
@@ -148,7 +148,10 @@ export default {
   color: #F5F5F5;
   opacity: 1 !important;
 }
-
+.description {
+  display: flex;
+  justify-content: center;
+}
 hr {
   border: 1px solid #F5F5F5;
   margin: 1rem 0;
@@ -193,6 +196,15 @@ hr {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 720px) {
+  .description {
+    display: block;
+  }
+  .des_item {
+    margin-top: 1rem;
   }
 }
 </style>
