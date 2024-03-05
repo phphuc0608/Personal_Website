@@ -15,8 +15,8 @@
           <h3 class="text_about">Prizes</h3>
           <ul>
             <li>Prospective prize in Data-centric AI Competition 2021 (FPT Software).</li>
-            <li>Consolation prize in University-level undergraduate research 2022 – 2023.</li>
-            <li>Scholarship for the academic year 2022 – 2023</li>
+            <li>Consolation prize in University-level undergraduate research 2022 - 2023.</li>
+            <li>Scholarship for the academic year 2022 - 2023</li>
           </ul>
         </div>
       </div>
@@ -26,8 +26,8 @@
       <hr>
       <div v-for="skill in skills" class="col-md-12 my-3 jr_skills text-center p-3">
         <h3 class="my-2">{{ skill.title }}</h3>
-        <div class="my-2 d-flex justify-content-center align-items-center pt-3">
-          <div v-for="item in skill.items" :key="item.name" class="skill_container">
+        <div class="my-2 d-flex justify-content-center align-items-center pt-3 flex-wrap" style="gap: 15px">
+          <div v-for="item in skill.items" :key="item.name" class="skill_container p-3">
             <img :src="item.icon" class="icon_skill" alt="">
             <div class="skill_name pt-2">{{ item.name }}</div>
           </div>
@@ -143,7 +143,10 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+#app{
+  overflow: hidden;
+}
 .text_about {
   color: #F5F5F5;
   opacity: 1 !important;
@@ -175,6 +178,7 @@ hr {
   height: auto;
   color: #605858;
   animation: heartbeat 2s infinite;
+  box-sizing: border-box;
 }
 .jr_skills .skill_name {
   font-size: 1rem;

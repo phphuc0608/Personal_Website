@@ -50,9 +50,16 @@ export default {
   font-size: 25pt;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 30px 0px;
 }
 .contact_icon:hover {
   cursor: pointer;
   color: hsla(0,0%,100%,.75);
+}
+@media (max-width: 358px) {
+  #greeting span{
+    font-size: 20pt;
+    padding: 30px 0px;
+}
 }
 </style>
