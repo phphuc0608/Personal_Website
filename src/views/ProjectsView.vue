@@ -1,5 +1,5 @@
 <template>
-<div class="container p-0">
+<div class="container ">
   <div class="col-md-12 mt-5">
     <h1 class="text_about">Projects</h1>
   </div>
