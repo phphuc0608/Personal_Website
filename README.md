@@ -1,4 +1,7 @@
-# personal_website
+# My Personal Website
+
+## Overview
+This project aim to develop a personal website. 
 
 ## Project setup
 ```
