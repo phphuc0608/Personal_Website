@@ -49,7 +49,7 @@ export default {
           github: "https://github.com/phphuc0608/Web_Selling_Phones_v1",
         },
         {
-          name: "Website selling technology items Laravel version",
+          name: "Website management for a store selling technology items Laravel version",
           content: "The goal of this project is to create a management page and a sales page. The management page helps user manage products, accounts, product types, manufacturers and news available on the website.",
           img: require("@/assets/projects/project_laravel.png"),
           tech: ["Laravel", "HTML", "CSS", "MySQL", "Bootstrap", "JavaScript"],
