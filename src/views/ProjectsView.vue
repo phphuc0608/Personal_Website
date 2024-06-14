@@ -75,6 +75,13 @@ export default {
           img: require("@/assets/projects/project_usi.png"),
           tech:["VueJS","HTML","CSS", "Bootstrap", "JavaScript"],
           github:"https://github.com/phphuc0608/MES_WEB_API_Test_Platform_USI",
+        },
+        {
+          name: "Border gate vehicle management system",
+          content: "This is the front-end part of the border gate vehicle management system applying license plate recognition technology",
+          img: require("@/assets/projects/project_border_gate.png"),
+          tech:["VueJS","HTML","CSS", "Bootstrap", "JavaScript", "Pinia"],
+          github:"https://github.com/phphuc0608/front_end_DATN",
         }
       ]
     }
