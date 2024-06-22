@@ -10,7 +10,7 @@
       </div>
       <div id="social_container" class="col-md-12 d-flex justify-content-center" style="color: white">
         <a class="p-3" href="https://github.com/phphuc0608" target="_blank"><i class="bi bi-github contact_icon"></i></a>
-        <a class="p-3" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook contact_icon"></i></a>
+        <a class="p-3" href="https://www.facebook.com/pham.phuc.5815255" target="_blank"><i class="bi bi-facebook contact_icon"></i></a>
         <a class="p-3" href="https://www.linkedin.com/in/ph%E1%BA%A1m-quang-ph%C3%BAc-492524298/" target="_blank"><i class="bi bi-linkedin contact_icon"></i></a>
       </div>
     </div>
