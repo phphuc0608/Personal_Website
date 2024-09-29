@@ -41,15 +41,21 @@ export default {
         //   logo: require("@/assets/about/school_logo.png"),
         // },
         {
-          name: "Intern at VNNET",
+          name: "IT internship at VNNET",
           time: "08/2022 - 11/2022",
           content: "Participate in developing water supply management app for smartphone using React Native.",
           logo: require("@/assets/about/vnnet.png"),
         },
         {
-          name: "Intern at USI VietNam",
+          name: "IT internship at USI VietNam",
           time: "1/2024 - 4/2024",
           content: "Participate in developing a tools for support MES system for the company.",
+          logo: require("@/assets/about/usi.jpg"),
+        },
+        {
+          name: "Industry 4.0 Engineer at USI VietNam",
+          time: "7/2024 - Present",
+          content: "Managing CIP projects and implementing MQTT servers to streamline data uploads for customer integration. Practical experience in FlexSim and SketchUp, I am capable of simulating production lines to optimize processes.",
           logo: require("@/assets/about/usi.jpg"),
         }
       ],
