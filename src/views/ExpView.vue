@@ -8,25 +8,32 @@
     <div class="container my-5">
       <h2 align="center" class="text_about">My Journey</h2>
       <hr>
-      <div v-for="exp in exp_list" class="col-md-12 my-3 jr_exp text-center p-3">
-          <img v-bind:src="exp.logo">
-          <h3 class="my-2">{{ exp.name }}</h3>
-          <p class="my-2">Time: {{ exp.time }}</p>
-          <p class="my-2">{{ exp.content }}</p>
-        </div>  
+      <div v-for="exp in exp_list" :key="exp.name" class="col-md-12 my-3 jr_exp text-center p-3">
+        <img :src="exp.logo">
+        <h3 class="my-2">{{ exp.name }}</h3>
+        <p class="my-2">Time: {{ exp.time }}</p>
+        <div class="my-2 text-left">
+          <p v-for="(line, index) in exp.content.split('.').filter(Boolean)" :key="index">
+            {{ line.trim() }}.
+          </p>
+        </div>
+      </div>  
     </div>
     <div class="container my-5">
       <h2 align="center" class="text_about">My Education</h2>
       <hr>
       <div class="col-md-12 my-3 jr_exp text-center p-3">
-          <img src="@/assets/about/school_logo.png">
-          <h3 class="my-2">Study at Vietnam Maritime University</h3>
-          <p class="my-2">Time: 10/2020 - Present</p>
-          <p class="my-2">Major: Information Technology</p>
-        </div>  
+        <img src="@/assets/about/school_logo.png">
+        <h3 class="my-2">Study at Vietnam Maritime University</h3>
+        <p class="my-2">Time: 10/2020 - Present</p>
+        <p class="my-2">Major: Information Technology</p>
+        <p class="my-2">GPA: 3.28/4.00</p>
+      </div>  
     </div>
   </div>
 </template>
+
+
 
 <script>
 export default {
@@ -49,13 +56,13 @@ export default {
         {
           name: "IT internship at USI VietNam",
           time: "1/2024 - 4/2024",
-          content: "Participate in developing a tools for support MES system for the company.",
+          content: "Participate in developing a tools for support MES system for the company. Learned about MES operating and production management systems. Assisted in enhancing efficiency and productivity within the team.",
           logo: require("@/assets/about/usi.jpg"),
         },
         {
           name: "Industry 4.0 Engineer at USI VietNam",
           time: "7/2024 - Present",
-          content: "Managing CIP projects and implementing MQTT servers to streamline data uploads for customer integration. Practical experience in FlexSim and SketchUp, I am capable of simulating production lines to optimize processes.",
+          content: "Managed CIP projects to optimize quality, output, and cycle times through team collaboration. Facilitated communication between engineering teams and clients for project success. Developed digitalization software to meet company and client-specific needs.",
           logo: require("@/assets/about/usi.jpg"),
         }
       ],

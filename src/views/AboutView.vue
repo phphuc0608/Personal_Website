@@ -8,8 +8,8 @@
       <div class="description pt-2">
         <div class="col-md-6 des_item text_about mb-2">
           <h3 class="text_about">Who I Am:</h3>
-          Hello, I'm Pham Quang Phuc, but you can simply call me Mac. 
-          I am a programmer who is always eager to accumulate practical experience and possesses a passion for constantly pushing the boundaries in the field of information technology.
+          I’m Mac, an Industry 4.0 Engineer at Universal Scientific Industrial Vietnam Co., Ltd., specializing in managing Continuous Improvement Projects (CIP) to enhance production efficiency and quality. 
+          I also develop software for factory digitalization, leveraging tools like FlexSim, SketchUp, and programming skills to support digital transformation and operational excellence.
         </div>
         <div class="col-md-6 des_item text_about mb-2">
           <h3 class="text_about">Prizes</h3>
@@ -44,81 +44,62 @@ export default {
     return {
       skills: [
         {
-          title: "Markup Languages & Style Sheet Languages",
-          items: [
+          title: "Project Management Skills",
+          items:[
             {
-              name: "HTML",
-              icon: require("@/assets/icon/html5-original.svg"),
+              name:"Project Planning",
+              icon:require("@/assets/icon/project_planning.gif")
             },
             {
-              name: "CSS",
-              icon: require("@/assets/icon/css3-original.svg"),
+              name:"Timeline Management",
+              icon:require("@/assets/icon/timeline.gif")
+            },
+            {
+              name:"Risk assessment",
+              icon:require("@/assets/icon/risk.gif")
+            },
+            {
+              name:"Team collaboration",
+              icon:require("@/assets/icon/team_colab.gif")
+            },
+            {
+              name:"Resources allocation",
+              icon:require("@/assets/icon/resources.gif")
+            },
+            {
+              name:"Client communication",
+              icon:require("@/assets/icon/meeting.gif")
+            },
+          ]
+        },
+        {
+          title: "Technical Skills",
+          items: [
+            {
+              name: "Coding",
+              icon: require("@/assets/icon/programmer.gif"),
+            },
+            {
+              name: "Flexsim",
+              icon: require("@/assets/icon/flexsim.png"),
+            },
+            {
+              name: "Sketchup",
+              icon: require("@/assets/icon/sketchup.svg"),
             },
           ],
         },
-        {
-          title: "Programming Languages",
-          items: [
-            {
-              name: "JavaScript",
-              icon: require("@/assets/icon/javascript-original.svg"),
-            },
-            {
-              name: "PHP",
-              icon: require("@/assets/icon/php-original.svg"),
-            },
-            {
-              name: "Python",
-              icon: require("@/assets/icon/python-original.svg"),
-            },
-          ],
-        },
-        {
-          title: "Frameworks",
-          items: [
-            {
-              name: "Vue.js",
-              icon: require("@/assets/icon/vuejs-original.svg"),
-            },
-            {
-              name: "Laravel",
-              icon: require("@/assets/icon/laravel-original.svg"),
-            },
-            {
-              name: "Bootstrap",
-              icon: require("@/assets/icon/bootstrap-original.svg"),
-            }
-          ],
-        },
-        {
-          title: "Database",
-          items: [
-            {
-              name: "MySQL",
-              icon: require("@/assets/icon/mysql-original.svg"),
-            },
-            {
-              name: "MS SQL",
-              icon: require("@/assets/icon/microsoftsqlserver-original.svg"),
-            },
-          ],
-        },
-        {
-          title: "Version Control",
-          items: [
-            {
-              name: "Git",
-              icon: require("@/assets/icon/git-original.svg"),
-            },
-            {
-              name: "GitHub",
-              icon: require("@/assets/icon/github-original.svg"),
-            }
-          ],
-        }, 
         {
           title: "Tools",
           items: [
+            {
+              name: "Microsoft Planner",
+              icon: require("@/assets/icon/microsoft-planner.webp"),
+            },
+            {
+              name: "Trello",
+              icon: require("@/assets/icon/trello.png"),
+            },
             {
               name: "VS Code",
               icon: require("@/assets/icon/vscode-original.svg"),
@@ -130,10 +111,6 @@ export default {
             {
               name: "Postman",
               icon: require("@/assets/icon/postman-original.svg"),
-            },
-            {
-              name: "Jupyter",
-              icon: require("@/assets/icon/jupyter-original.svg"),
             },
           ],
         },
