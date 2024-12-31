@@ -162,7 +162,7 @@ hr {
   color: #605858;
   font-weight: bold;
 }
-@keyframes heartbeat {
+/* @keyframes heartbeat {
   0% {
     transform: scale(1);
   }
@@ -178,7 +178,7 @@ hr {
   100% {
     transform: scale(1);
   }
-}
+} */
 
 @media (max-width: 720px) {
   .description {
