@@ -1,14 +1,21 @@
 <template>
   <div class="about">
     <div class="container">
-      <div class="col-md-12 mt-5">
+      <div class="col-md-12 mt-5 d-flex justify-content-between align-items-center">
         <h1 class="text_about">About</h1>
+        <a 
+          href="@/assets/PhamQuangPhuc_cv.pdf" 
+          download="PhamQuangPhuc_cv.pdf" 
+          class="btn btn-primary mt-2"
+        >
+          Download my resume
+        </a>
       </div>
       <hr>
       <div class="description pt-2">
         <div class="col-md-6 des_item text_about mb-2">
           <h3 class="text_about">Who I Am:</h3>
-          I’m Mac, an Industry 4.0 Engineer at Universal Scientific Industrial Vietnam Co., Ltd., specializing in managing Continuous Improvement Projects (CIP) to enhance production efficiency and quality. 
+          My name is Pham Quang Phuc, you can call me Mac. I'm an Industry 4.0 Engineer at Universal Scientific Industrial Vietnam Co., Ltd., specializing in managing Continuous Improvement Projects (CIP) to enhance production efficiency and quality. 
           I also develop software for factory digitalization, leveraging tools like FlexSim, SketchUp, and programming skills to support digital transformation and operational excellence.
         </div>
         <div class="col-md-6 des_item text_about mb-2">
