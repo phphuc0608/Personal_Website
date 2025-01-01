@@ -4,7 +4,7 @@
       <div class="col-md-12 mt-5 d-flex justify-content-between align-items-center">
         <h1 class="text_about">About</h1>
         <a 
-          href="@/assets/PhamQuangPhuc_cv.pdf" 
+          href="/PhamQuangPhuc_cv.pdf" 
           download="PhamQuangPhuc_cv.pdf" 
           class="btn btn-primary mt-2"
         >
