@@ -42,18 +42,11 @@ export default {
     return{
       projects: [
         {
-          name: "Website selling technology items PHP version",
-          content: "The goal of this project is to create a management page and a sales page. The management page helps user manage products, accounts, product types, manufacturers and news available on the website. The sales page will display the products, product types and news currently in the database.",
-          img: require("@/assets/projects/project_php.png"),
-          tech: ["PHP", "HTML", "CSS", "MySQL", "Bootstrap", "Jquery"],
-          github: "https://github.com/phphuc0608/Web_Selling_Phones_v1",
-        },
-        {
-          name: "Website management for a store selling technology items Laravel version",
-          content: "The goal of this project is to create a management page and a sales page. The management page helps user manage products, accounts, product types, manufacturers and news available on the website.",
-          img: require("@/assets/projects/project_laravel.png"),
-          tech: ["Laravel", "HTML", "CSS", "MySQL", "Bootstrap", "JavaScript"],
-          github: "https://github.com/phphuc0608/Web_Selling_Phones_v2",
+          name: "USI HPH Dashboard System",
+          content:"Help user access dashboard more convenient, no need save a lot of dashboard links in bookmark or note.",
+          img: require("@/assets/projects/Dashboard_System.png"),
+          tech: ["HTML", "CSS", "Django"],
+          github: "https://github.com/phphuc0608/Navigation-Page",
         },
         {
           name: "Emotion recognition",
@@ -61,13 +54,6 @@ export default {
           img: require("@/assets/projects/project_emotion.png"),
           tech: ["Python", "OpenCV", "Numpy", "Keras", "Pandas"],
           github:"https://github.com/phphuc0608/Emotion-recognition",
-        },
-        {
-          name: "League of legends skins store and items",
-          content: "This is a website that simulates buying and selling items and costumes for champions in League of Legends, where users can easily search, view and buy costumes for their characters.",
-          img: require("@/assets/projects/project_lol.png"),
-          tech: ["Laravel", "HTML", "CSS", "MySQL", "Bootstrap", "JavaScript"],
-          github:"https://github.com/phphuc0608/LoL_shop"
         },
         {
           name: "Test automation platform for web API",
@@ -82,7 +68,28 @@ export default {
           img: require("@/assets/projects/project_border_gate.png"),
           tech:["VueJS","HTML","CSS", "Bootstrap", "JavaScript", "Pinia"],
           github:"https://github.com/phphuc0608/front_end_DATN",
-        }
+        },
+        {
+          name: "League of legends skins store and items",
+          content: "This is a website that simulates buying and selling items and costumes for champions in League of Legends, where users can easily search, view and buy costumes for their characters.",
+          img: require("@/assets/projects/project_lol.png"),
+          tech: ["Laravel", "HTML", "CSS", "MySQL", "Bootstrap", "JavaScript"],
+          github:"https://github.com/phphuc0608/LoL_shop"
+        },
+        {
+          name: "Website selling technology items PHP version",
+          content: "The goal of this project is to create a management page and a sales page. The management page helps user manage products, accounts, product types, manufacturers and news available on the website. The sales page will display the products, product types and news currently in the database.",
+          img: require("@/assets/projects/project_php.png"),
+          tech: ["PHP", "HTML", "CSS", "MySQL", "Bootstrap", "Jquery"],
+          github: "https://github.com/phphuc0608/Web_Selling_Phones_v1",
+        },
+                {
+          name: "Website management for a store selling technology items Laravel version",
+          content: "The goal of this project is to create a management page and a sales page. The management page helps user manage products, accounts, product types, manufacturers and news available on the website.",
+          img: require("@/assets/projects/project_laravel.png"),
+          tech: ["Laravel", "HTML", "CSS", "MySQL", "Bootstrap", "JavaScript"],
+          github: "https://github.com/phphuc0608/Web_Selling_Phones_v2",
+        },
       ]
     }
   },

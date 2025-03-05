@@ -4,6 +4,17 @@
       <div class="col-md-12 mt-5">
         <h1 class="text_about">Experiences</h1>
       </div>
+      <hr>
+      <div class="description pt-2">
+        <div class="col-md-12 des_item text_about mb-2">
+          <h3 class="text_about">Key Achievements</h3>
+          <ul>
+            <li>Selected to participate in a 10 days training course in Kunshan, China. Focusing on data extraction process and CIP project knowledge, management.</li>
+            <li>Developed several web applications based on company and client requirements, such as a dashboard aggregation system and an MOI management system.</li>
+            <li>Coordinate with departments to implement improvements, saving 15% of costs and ensuring a payback period under one year for automation investments per customer request.</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="container my-5">
       <h2 align="center" class="text_about">My Journey</h2>
@@ -48,10 +59,10 @@ export default {
         //   logo: require("@/assets/about/school_logo.png"),
         // },
         {
-          name: "IT internship at VNNET",
-          time: "08/2022 - 11/2022",
-          content: "Participate in developing water supply management app for smartphone using React Native.",
-          logo: require("@/assets/about/vnnet.png"),
+          name: "Smart Manufacturing Development Engineer at USI VietNam",
+          time: "7/2024 - Present",
+          content: "Managed CIP projects to optimize quality, output, and cycle times through team collaboration. Facilitated communication between engineering teams and clients for project success. Developed digitalization software to meet company and client-specific needs.",
+          logo: require("@/assets/about/usi.jpg"),
         },
         {
           name: "IT internship at USI VietNam",
@@ -60,11 +71,11 @@ export default {
           logo: require("@/assets/about/usi.jpg"),
         },
         {
-          name: "Industry 4.0 Engineer at USI VietNam",
-          time: "7/2024 - Present",
-          content: "Managed CIP projects to optimize quality, output, and cycle times through team collaboration. Facilitated communication between engineering teams and clients for project success. Developed digitalization software to meet company and client-specific needs.",
-          logo: require("@/assets/about/usi.jpg"),
-        }
+          name: "IT internship at VNNET",
+          time: "08/2022 - 11/2022",
+          content: "Participate in developing water supply management app for smartphone using React Native.",
+          logo: require("@/assets/about/vnnet.png"),
+        },
       ],
     };
   },
