@@ -59,7 +59,7 @@ export default {
         //   logo: require("@/assets/about/school_logo.png"),
         // },
         {
-          name: "Smart Manufacturing Development Engineer at USI VietNam",
+          name: "Industry 4.0 Engineer at USI VietNam",
           time: "7/2024 - Present",
           content: "Managed CIP projects to optimize quality, output, and cycle times through team collaboration. Facilitated communication between engineering teams and clients for project success. Developed digitalization software to meet company and client-specific needs.",
           logo: require("@/assets/about/usi.jpg"),
