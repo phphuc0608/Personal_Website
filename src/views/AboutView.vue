@@ -96,7 +96,7 @@ export default {
               icon: require("@/assets/icon/Laravel-Dark.svg"),
             },
             {
-              name: "CSS",
+              name: "Django",
               icon: require("@/assets/icon/Django.svg"),
             },
           ],
