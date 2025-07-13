@@ -42,13 +42,6 @@ export default {
     return{
       projects: [
         {
-          name: "USI HPH Dashboard System",
-          content:"Help user access dashboard more convenient, no need save a lot of dashboard links in bookmark or note.",
-          img: require("@/assets/projects/Dashboard_System.png"),
-          tech: ["HTML", "CSS", "Django"],
-          github: "https://github.com/phphuc0608/Navigation-Page",
-        },
-        {
           name: "Emotion recognition",
           content: "This project's content is to create a model that can recognize 7 types of human emotions through the face. The project includes two simple apps: recognition through images and recognition with cameras in real time.",
           img: require("@/assets/projects/project_emotion.png"),
